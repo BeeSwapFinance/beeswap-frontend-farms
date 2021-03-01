@@ -1828,9 +1828,9 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@goosedefi/goose-uikit":
+"@pancakeswap-libs/uikit@BeeSwapFinance/beeswap-uikit":
   version "0.10.2"
-  resolved "https://codeload.github.com/goosedefi/goose-uikit/tar.gz/37301152887fef1f5e7016c043bad166ea5163b6"
+  resolved "https://codeload.github.com/BeeSwapFinance/beeswap-uikit/tar.gz/29b66d872f238b7403c762e9c67c160fa30b1676"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"

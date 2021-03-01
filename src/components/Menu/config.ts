@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.goosedefi.com/',
+        href: 'https://exchange.beeswaps.com/',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.goosedefi.com/#/pool',
+        href: 'https://exchange.beeswaps.com/#/pool',
       },
     ],
   },
@@ -26,24 +26,34 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
-    label: 'Nests',
+    label: 'Hives',
     icon: 'PoolIcon',
-    href: '/nests',
+    href: '/hives',
+  },
+  {
+    label: 'Lottery',
+    icon: 'TicketIcon',
+    href: '/lottery',
+  },
+  {
+    label: 'NFT',
+    icon: 'NftIcon',
+    href: '/nft',
+  },
+  {
+    label: 'IFO',
+    icon: 'AuditIcon',
+    href: '/ifo',
+  },
+  {
+    label: 'Audit',
+    icon: 'AuditIcon',
+    href: '/audit',
   },
   // {
   //   label: 'Pools',
   //   icon: 'PoolIcon',
   //   href: '/pools',
-  // },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: '/lottery',
-  // },
-  // {
-  //   label: 'NFT',
-  //   icon: 'NftIcon',
-  //   href: '/nft',
   // },
   {
     label: 'Info',
@@ -73,15 +83,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/goosedefi/',
+        href: 'https://github.com/BeeSwapFinance/',
       },
       {
         label: 'Docs',
-        href: 'https://goosedefi.gitbook.io/goose-finance/',
+        href: 'https://beeswapfinance.gitbook.io/beeswap-finance/',
       },
       {
         label: 'Blog',
-        href: 'https://goosefinance.medium.com/',
+        href: 'https://medium.com/@beeswapfinance/',
       },
     ],
   },
