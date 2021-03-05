@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total HONEY burned since launch"
+        "text": "Total BEE burned since launch"
       }
     },
     {
@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake LP tokens to earn HONEY"
+        "text": "Stake LP tokens to earn BEE"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake HONEY, get SYRUP."
+        "text": "Stake BEE, get SYRUP."
       }
     },
     {
@@ -153,7 +153,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake HONEY tokens, the contract will automatically harvest HONEY rewards for you!"
+        "text": "Every time you stake and unstake BEE tokens, the contract will automatically harvest BEE rewards for you!"
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "Honey price"
+        "text": "BEE price"
       }
     },
     {
@@ -243,7 +243,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 HONEY = 1 SYRUP"
+        "text": "1 BEE = 1 SYRUP"
       }
     },
     {
@@ -291,7 +291,7 @@
     {
       "data": {
         "stringId": 400,
-        "text": "SYRUP holders proportionally split 25% of HONEY block emissions each day (10 HONEY per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 25% of BEE block emissions each day (10 BEE per block), Rewards are distributed each block."
       }
     },
     {
@@ -351,13 +351,13 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% HONEY"
+        "text": "%num% BEE"
       }
     },
     {
       "data": {
         "stringId": 426,
-        "text": "Spend HONEY to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
+        "text": "Spend BEE to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
       }
     },
     {
@@ -435,19 +435,19 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% HONEY Available"
+        "text": "%num% BEE Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple of 10 HONEY"
+        "text": "Your amount must be a multiple of 10 BEE"
       }
     },
     {
       "data": {
         "stringId": 458,
-        "text": "1 Ticket = 10 HONEY"
+        "text": "1 Ticket = 10 BEE"
       }
     },
     {
@@ -495,7 +495,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your HONEY cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your BEE cannot be returned to you after buying tickets."
       }
     },
     {
@@ -507,7 +507,7 @@
     {
       "data": {
         "stringId": 482,
-        "text": "HONEY prizes to be claimed"
+        "text": "BEE prizes to be claimed"
       }
     },
     {
@@ -543,13 +543,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve HONEY"
+        "text": "Approve BEE"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "SYRUP holders proportionally split 40% of HONEY block emissions each day (10 HONEY per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 40% of BEE block emissions each day (10 BEE per block), Rewards are distributed each block."
       }
     },
     {
@@ -567,19 +567,19 @@
     {
       "data": {
         "stringId": 504,
-        "text": "You\u2019ll pay for the new tokens using HNY-BNB LP tokens, which means you need to stake equal amounts of HONEY and BNB in a liquidity pool to take part."
+        "text": "You\u2019ll pay for the new tokens using HNY-BNB LP tokens, which means you need to stake equal amounts of BEE and BNB in a liquidity pool to take part."
       }
     },
     {
       "data": {
         "stringId": 506,
-        "text": "Get HONEY-BNB LP >"
+        "text": "Get BEE-BNB LP >"
       }
     },
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, BeeSwap burns the Honey."
+        "text": "The project gets the BNB, BeeSwap burns the BEE."
       }
     },
     {
@@ -645,7 +645,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "Honey Stats"
+        "text": "Bee Stats"
       }
     },
     {
@@ -663,7 +663,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "New HONEY\/block"
+        "text": "New BEE\/block"
       }
     },
     {
@@ -675,19 +675,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "HONEY to Harvest"
+        "text": "BEE to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "HONEY in Wallet"
+        "text": "BEE in Wallet"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting HONEY"
+        "text": "Collecting BEE"
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "HONEY to Collect"
+        "text": "BEE to Collect"
       }
     },
     {
@@ -759,13 +759,13 @@
     {
       "data": {
         "stringId": 578,
-        "text": "Top 3 best DEFI app on Binance Smart Chain."
+        "text": "The hardest-working BEEs on the Binance Smart Chain."
       }
     },
     {
       "data": {
         "stringId": 580,
-        "text": "Stake HONEY to earn new tokens."
+        "text": "Stake BEE to earn new tokens."
       }
     },
     {
@@ -783,7 +783,7 @@
     {
       "data": {
         "stringId": 586,
-        "text": "HONEY to burn (USD)"
+        "text": "BEE to burn (USD)"
       }
     },
     {
@@ -795,7 +795,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest HONEY rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest BEE rewards for you!"
       }
     },
     {
@@ -813,13 +813,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy HONEY and BNB tokens"
+        "text": "Buy BEE and BNB tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get HONEY-BNB LP tokens by adding HONEY and BNB liquidity"
+        "text": "Get BEE-BNB LP tokens by adding BEE and BNB liquidity"
       }
     },
     {
@@ -831,7 +831,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your HONEY-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your BEE-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -867,7 +867,7 @@
     {
       "data": {
         "stringId": 614,
-        "text": "Trade in for HONEY, or keep for your collection!"
+        "text": "Trade in for BEE, or keep for your collection!"
       }
     },
     {
@@ -909,7 +909,7 @@
     {
       "data": {
         "stringId": 628,
-        "text": "When you trade in this NFT to receive HONEY, you will lose access to it forever!"
+        "text": "When you trade in this NFT to receive BEE, you will lose access to it forever!"
       }
     },
     {
@@ -939,7 +939,7 @@
     {
       "data": {
         "stringId": 638,
-        "text": "Winners can trade in their NFTs for a HONEY value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
+        "text": "Winners can trade in their NFTs for a BEE value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
       }
     },
     {
@@ -981,7 +981,7 @@
     {
       "data": {
         "stringId": 654,
-        "text": "Trade in for HONEY"
+        "text": "Trade in for BEE"
       }
     },
     {
@@ -1107,7 +1107,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn HONEY"
+        "text": "Stake LP tokens to earn BEE"
       }
     },
     {
@@ -1149,13 +1149,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The HONEY Lottery"
+        "text": "The BEE Lottery"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Buy tickets with HONEY"
+        "text": "Buy tickets with BEE"
       }
     },
     {
@@ -1209,7 +1209,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback HONEY"
+        "text": "Deposit Fee will be used to buyback BEE"
       }
     },
     {
@@ -1221,7 +1221,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn HONEY"
+        "text": "Stake tokens to earn BEE"
       }
     },
     {

@@ -51,15 +51,6 @@ const App: React.FC = () => {
             <Route path="/hives">
               <Farms tokenMode/>
             </Route>
-            <Route path="/lottery">
-              <Lottery />
-            </Route>
-            <Route path="/nft">
-              <Nft />
-            </Route>
-            <Route path="/ifo">
-              <Ifos />
-            </Route>
             {/* <Route path="/pools"> */}
             {/*  <Pools /> */}
             {/* </Route> */}

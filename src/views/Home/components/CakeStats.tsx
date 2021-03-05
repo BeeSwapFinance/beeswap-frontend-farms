@@ -27,21 +27,21 @@ const CakeStats = () => {
   const totalSupply = useTotalSupply()
   const burnedBalance = useBurnedBalance(getCakeAddress())
   const farms = useFarms();
-  const eggPrice = usePriceCakeBusd();
+  const beePrice = usePriceCakeBusd();
   const circSupply = totalSupply ? totalSupply.minus(burnedBalance) : new BigNumber(0);
   const cakeSupply = getBalanceNumber(circSupply);
-  const marketCap = eggPrice.times(circSupply);
+  const marketCap = beePrice.times(circSupply);
 
-  let eggPerBlock = 0;
-  if(farms && farms[0] && farms[0].eggPerBlock){
-    eggPerBlock = new BigNumber(farms[0].eggPerBlock).div(new BigNumber(10).pow(18)).toNumber();
+  let beePerBlock = 0;
+  if(farms && farms[0] && farms[0].beePerBlock){
+    beePerBlock = new BigNumber(farms[0].beePerBlock).div(new BigNumber(10).pow(18)).toNumber();
   }
 
   return (
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(534, 'Honeys Stats')}
+          {TranslateString(534, 'BEE Stats')}
         </Heading>
         <Row>
           <Text fontSize="14px">{TranslateString(10005, 'Market Cap')}</Text>
@@ -60,8 +60,8 @@ const CakeStats = () => {
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} decimals={0} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New HONEY/block')}</Text>
-          <Text bold fontSize="14px">{eggPerBlock}</Text>
+          <Text fontSize="14px">{TranslateString(540, 'New BEE/block')}</Text>
+          <Text bold fontSize="14px">{beePerBlock}</Text>
         </Row>
       </CardBody>
     </StyledCakeStats>

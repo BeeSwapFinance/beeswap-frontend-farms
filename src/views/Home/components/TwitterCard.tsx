@@ -2,7 +2,8 @@ import React from 'react'
 import { Card, CardBody, Heading, Text } from '@pancakeswap-libs/uikit'
 import BigNumber from 'bignumber.js/bignumber'
 import styled from 'styled-components'
-import { Timeline } from 'react-twitter-widgets'
+import { Timeline, Tweet } from 'react-twitter-widgets'
+import { TwitterTimelineEmbed, TwitterTweetEmbed } from 'react-twitter-embed';
 import { getBalanceNumber } from 'utils/formatBalance'
 import { useTotalSupply, useBurnedBalance } from 'hooks/useTokenBalance'
 import useI18n from 'hooks/useI18n'
@@ -32,17 +33,8 @@ const TwitterCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(10003, 'Announcements')}
         </Heading>
-        <Timeline
-          dataSource={{
-            sourceType: 'profile',
-            screenName: 'BeeSwap'
-          }}
-          options={{
-            height: '300',
-            chrome: "noheader, nofooter",
-            width: "400"
-          }}
-        />
+
+        <Tweet tweetId="1367499980915822603" />
       </CardBody>
     </StyledTwitterCard>
   )

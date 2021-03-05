@@ -45,7 +45,7 @@ const FarmedStakingCard = () => {
   const TranslateString = useI18n()
   const farmsWithBalance = useFarmsWithBalance()
   const cakeBalance = getBalanceNumber(useTokenBalance(getCakeAddress()))
-  const eggPrice = usePriceCakeBusd().toNumber()
+  const beePrice = usePriceCakeBusd().toNumber()
   const allEarnings = useAllEarnings()
   const earningsSum = allEarnings.reduce((accum, earning) => {
     return accum + new BigNumber(earning).div(new BigNumber(10).pow(18)).toNumber()
@@ -73,14 +73,14 @@ const FarmedStakingCard = () => {
         </Heading>
         <CardImage src="/images/bee/2.png" alt="cake logo" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(544, 'HONEY to Harvest')}</Label>
+          <Label>{TranslateString(544, 'BEE to Harvest')}</Label>
           <CakeHarvestBalance earningsSum={earningsSum}/>
-          <Label>~${(eggPrice * earningsSum).toFixed(2)}</Label>
+          <Label>~${(beePrice * earningsSum).toFixed(2)}</Label>
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'HONEY in Wallet')}</Label>
+          <Label>{TranslateString(546, 'BEE in Wallet')}</Label>
           <CakeWalletBalance cakeBalance={cakeBalance} />
-          <Label>~${(eggPrice * cakeBalance).toFixed(2)}</Label>
+          <Label>~${(beePrice * cakeBalance).toFixed(2)}</Label>
         </Block>
         <Actions>
           {account ? (
@@ -91,7 +91,7 @@ const FarmedStakingCard = () => {
               fullWidth
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting HONEY')
+                ? TranslateString(548, 'Collecting BEE')
                 : TranslateString(999, `Harvest all (${balancesWithValue.length})`)}
             </Button>
           ) : (

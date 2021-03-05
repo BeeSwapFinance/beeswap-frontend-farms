@@ -5,15 +5,15 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'HONEY-BUSD LP',
+    lpSymbol: 'BEE-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+      56: '0xa7790950dd0a314380fa84e5dc584023568c8095',
     },
-    tokenSymbol: 'HONEY',
+    tokenSymbol: 'BEE',
     tokenAddresses: {
-      97: '',
-      56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
+      97: '0x428BAB3c8Bf84e00aC8bda060689fFDD3A31dc52',
+      56: '0x3aEb6DeE52eD6772f26C68bAc63f121121d7092F',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -21,15 +21,15 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'HONEY-BNB LP',
+    lpSymbol: 'BEE-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xd1b59d11316e87c3a0a069e80f590ba35cd8d8d3',
+      56: '0xc9aa28edefac6a298fc81f230c48a4d6bebdef05',
     },
-    tokenSymbol: 'HONEY',
+    tokenSymbol: 'BEE',
     tokenAddresses: {
-      97: '',
-      56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
+      97: '0x428BAB3c8Bf84e00aC8bda060689fFDD3A31dc52',
+      56: '0x3aEb6DeE52eD6772f26C68bAc63f121121d7092F',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -182,15 +182,15 @@ const farms: FarmConfig[] = [
     pid: 12,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'HONEY',
+    lpSymbol: 'BEE',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // HONEY-BUSD LP
+      56: '0xa7790950dd0a314380fa84e5dc584023568c8095', // BEE-BUSD LP
     },
-    tokenSymbol: 'HONEY',
+    tokenSymbol: 'BEE',
     tokenAddresses: {
-      97: '',
-      56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
+      97: '0x428BAB3c8Bf84e00aC8bda060689fFDD3A31dc52',
+      56: '0x3aEb6DeE52eD6772f26C68bAc63f121121d7092F',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -202,7 +202,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // HONEY-BUSD LP (BUSD-BUSD will ignore)
+      56: '0xa7790950dd0a314380fa84e5dc584023568c8095', // BEE-BUSD LP (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {

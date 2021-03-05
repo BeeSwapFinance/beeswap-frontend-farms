@@ -2,8 +2,8 @@
   {
     "inputs": [
       {
-        "internalType": "contract EggToken",
-        "name": "_egg",
+        "internalType": "contract BeeToken",
+        "name": "_bee",
         "type": "address"
       },
       {
@@ -18,7 +18,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_eggPerBlock",
+        "name": "_beePerBlock",
         "type": "uint256"
       },
       {
@@ -154,10 +154,10 @@
   },
   {
     "inputs": [],
-    "name": "egg",
+    "name": "bee",
     "outputs": [
       {
-        "internalType": "contract EggToken",
+        "internalType": "contract BeeToken",
         "name": "",
         "type": "address"
       }
@@ -168,7 +168,7 @@
   },
   {
     "inputs": [],
-    "name": "eggPerBlock",
+    "name": "beePerBlock",
     "outputs": [
       {
         "internalType": "uint256",
@@ -235,7 +235,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "accEggPerShare",
+        "name": "accBeePerShare",
         "type": "uint256"
       },
       {
@@ -434,7 +434,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingEgg",
+    "name": "pendingBee",
     "outputs": [
       {
         "internalType": "uint256",
@@ -545,7 +545,7 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "_eggPerBlock",
+        "name": "_beePerBlock",
         "type": "uint256"
       }
     ],
