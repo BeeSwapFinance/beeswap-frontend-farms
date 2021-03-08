@@ -1830,7 +1830,7 @@
 
 "@pancakeswap-libs/uikit@BeeSwapFinance/beeswap-uikit":
   version "0.10.2"
-  resolved "https://codeload.github.com/BeeSwapFinance/beeswap-uikit/tar.gz/214913c499614c642ea1489cb620f77822fffaf8"
+  resolved "https://codeload.github.com/BeeSwapFinance/beeswap-uikit/tar.gz/3efd6be9c749195f2d537b4a42f0bb4a68b9988d"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
