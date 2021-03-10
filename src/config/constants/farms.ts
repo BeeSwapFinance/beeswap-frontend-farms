@@ -185,7 +185,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BEE',
     lpAddresses: {
       97: '',
-      56: '0xf60011fF21F44E1faf249E084CCE26FeA88a08F7', // BEE-BUSD LP
+      56: '0x10b8b3418E6BfAbCA16CB83f1Ba95581E5723B3F', // BEE-BUSD LP
     },
     tokenSymbol: 'BEE',
     tokenAddresses: {
