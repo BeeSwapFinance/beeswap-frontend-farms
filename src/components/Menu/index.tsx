@@ -23,8 +23,7 @@ const Menu = (props) => {
       currentLang={selectedLanguage && selectedLanguage.code}
       langs={allLanguages}
       setLang={setSelectedLanguage}
-      // cakePriceUsd={cakePriceUsd.toNumber()}
-      cakePriceUsd={0}
+      cakePriceUsd={cakePriceUsd.toNumber()}
       links={config}
       priceLink="https://www.coingecko.com/en/coins/beeswap-finance"
       {...props}

@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BEE-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0xEA853Cc21B8777C07b240F74c1A2A9b27E7cdFbb',
+      56: '0x10b8b3418E6BfAbCA16CB83f1Ba95581E5723B3F',
     },
     tokenSymbol: 'BEE',
     tokenAddresses: {
       97: '',
-      56: '0x1baB59784786b7D5B89934BFFB1e2942E265bD6D',
+      56: '0xf60011fF21F44E1faf249E084CCE26FeA88a08F7',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -24,12 +24,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BEE-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x8614943F1A189370fB51F0b5eAbB1A3f331322A0',
+      56: '0x33904703d5115949C5667F3Bf3afcdf2adcE48a2',
     },
     tokenSymbol: 'BEE',
     tokenAddresses: {
       97: '',
-      56: '0x1baB59784786b7D5B89934BFFB1e2942E265bD6D',
+      56: '0xf60011fF21F44E1faf249E084CCE26FeA88a08F7',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -185,12 +185,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BEE',
     lpAddresses: {
       97: '',
-      56: '0x1baB59784786b7D5B89934BFFB1e2942E265bD6D', // BEE-BUSD LP
+      56: '0xf60011fF21F44E1faf249E084CCE26FeA88a08F7', // BEE-BUSD LP
     },
     tokenSymbol: 'BEE',
     tokenAddresses: {
       97: '',
-      56: '0x1baB59784786b7D5B89934BFFB1e2942E265bD6D',
+      56: '0xf60011fF21F44E1faf249E084CCE26FeA88a08F7',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,

@@ -6,30 +6,30 @@ const config: MenuEntry[] = [
     icon: 'HomeIcon',
     href: '/',
   },
-  // {
-  //   label: 'Trade',
-  //   icon: 'TradeIcon',
-  //   items: [
-  //     {
-  //       label: 'Exchange',
-  //       href: 'https://exchange.beeswaps.com/',
-  //     },
-  //     {
-  //       label: 'Liquidity',
-  //       href: 'https://exchange.beeswaps.com/#/pool',
-  //     },
-  //   ],
-  // },
-  // {
-  //   label: 'Farms',
-  //   icon: 'FarmIcon',
-  //   href: '/farms',
-  // },
-  // {
-  //   label: 'Hives',
-  //   icon: 'PoolIcon',
-  //   href: '/hives',
-  // },
+  {
+    label: 'Trade',
+    icon: 'TradeIcon',
+    items: [
+      {
+        label: 'Exchange',
+        href: 'https://exchange.beeswaps.com/',
+      },
+      {
+        label: 'Liquidity',
+        href: 'https://exchange.beeswaps.com/#/pool',
+      },
+    ],
+  },
+  {
+    label: 'Farms',
+    icon: 'FarmIcon',
+    href: '/farms',
+  },
+  {
+    label: 'Hives',
+    icon: 'PoolIcon',
+    href: '/hives',
+  },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
@@ -55,28 +55,28 @@ const config: MenuEntry[] = [
   //   icon: 'PoolIcon',
   //   href: '/pools',
   // },
-  // {
-  //   label: 'Info',
-  //   icon: 'InfoIcon',
-  //   items: [
-  //     {
-  //       label: 'PancakeSwap',
-  //       href: 'https://pancakeswap.info/token/0x1baB59784786b7D5B89934BFFB1e2942E265bD6D',
-  //     },
-  //     {
-  //       label: 'CoinGecko',
-  //       href: 'https://www.coingecko.com/en/coins/beeswap-finance',
-  //     },
-  //     {
-  //       label: 'CoinMarketCap',
-  //       href: 'https://coinmarketcap.com/currencies/beeswap-finance/',
-  //     },
-  //     {
-  //       label: 'AstroTools',
-  //       href: 'https://app.astrotools.io/pancake-pair-explorer/0xEA853Cc21B8777C07b240F74c1A2A9b27E7cdFbb',
-  //     },
-  //   ],
-  // },
+  {
+    label: 'Info',
+    icon: 'InfoIcon',
+    items: [
+      {
+        label: 'PancakeSwap',
+        href: 'https://pancakeswap.info/token/0xf60011fF21F44E1faf249E084CCE26FeA88a08F7',
+      },
+      {
+        label: 'CoinGecko',
+        href: 'https://www.coingecko.com/en/coins/beeswap-finance',
+      },
+      {
+        label: 'CoinMarketCap',
+        href: 'https://coinmarketcap.com/currencies/beeswap-finance/',
+      },
+      {
+        label: 'AstroTools',
+        href: 'https://app.astrotools.io/pancake-pair-explorer/0x10b8b3418E6BfAbCA16CB83f1Ba95581E5723B3F',
+      },
+    ],
+  },
   {
     label: 'More',
     icon: 'MoreIcon',

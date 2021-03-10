@@ -101,7 +101,7 @@ export const useTotalValue = (): BigNumber => {
         val = (farm.lpTotalInQuoteToken);
       }
       if (farm.lpSymbol === QuoteToken.BEE) {
-        // val = (cakePrice.times(farm.tokenAmount));
+        val = (cakePrice.times(farm.tokenAmount));
       }
       value = value.plus(val);
     }
