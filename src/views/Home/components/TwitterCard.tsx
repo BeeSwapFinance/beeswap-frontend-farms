@@ -34,7 +34,17 @@ const TwitterCard = () => {
           {TranslateString(10003, 'Announcements')}
         </Heading>
 
-        <Tweet tweetId="1367499980915822603" />
+        <Timeline
+          dataSource={{
+            sourceType: 'profile',
+            screenName: 'BeeswapF'
+          }}
+          options={{
+            height: '300',
+            chrome: "noheader, nofooter",
+            width: "400"
+          }}
+        />
       </CardBody>
     </StyledTwitterCard>
   )
